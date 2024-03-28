@@ -244,7 +244,7 @@ int main() {
 ```
 
 ``` 
-/home/david/org/uni/1/mp/yy/test.cpp:12:8: error: no match for ‘operator<<’ (operand types are ‘std::ostream’ {aka ‘std::basic_ostream<char>’} and ‘Persona’)
+test.cpp:12:8: error: no match for ‘operator<<’ (operand types are ‘std::ostream’ {aka ‘std::basic_ostream<char>’} and ‘Persona’)
    12 |   cout << persona << endl;
       |   ~~~~ ^~ ~~~~
       |   |       |
@@ -260,7 +260,7 @@ El mensaje de error nos dice que no hay una función operador<< que tome ostream
 ```
 
 ``` 
-/home/david/org/uni/1/mp/yy/test.cpp:11:20: error: no match for ‘operator=’ (operand types are ‘const string’ {aka ‘const std::__cxx11::basic_string<char>’} and ‘const char [5]’)
+test.cpp:11:20: error: no match for ‘operator=’ (operand types are ‘const string’ {aka ‘const std::__cxx11::basic_string<char>’} and ‘const char [5]’)
    11 |   persona.nombre = "Juan";
       |                    ^~~~~~
 ```
